@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AC64C1B5A06CC594CE0DA14 /* Pods_FaUpIn05GitHubRepository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D57891B1C2F2E37F267E3B3 /* Pods_FaUpIn05GitHubRepository.framework */; };
 		D85BABAD2BF8FC94005633C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85BABAC2BF8FC94005633C8 /* AppDelegate.swift */; };
 		D85BABAF2BF8FC94005633C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85BABAE2BF8FC94005633C8 /* SceneDelegate.swift */; };
-		D85BABB12BF8FC94005633C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85BABB02BF8FC94005633C8 /* ViewController.swift */; };
-		D85BABB42BF8FC94005633C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D85BABB32BF8FC94005633C8 /* Base */; };
 		D85BABB62BF8FC97005633C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85BABB52BF8FC97005633C8 /* Assets.xcassets */; };
 		D85BABB92BF8FC97005633C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D85BABB82BF8FC97005633C8 /* Base */; };
+		D8D6DA422C00BF8F0073E9A1 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D6DA412C00BF8F0073E9A1 /* RepositoryListViewController.swift */; };
+		D8D6DA442C00C16A0073E9A1 /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D6DA432C00C16A0073E9A1 /* RepositoryListCell.swift */; };
+		D8D6DA472C00C2420073E9A1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8D6DA462C00C2420073E9A1 /* SnapKit */; };
+		D8D6DA492C00C2420073E9A1 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D8D6DA482C00C2420073E9A1 /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1379C9926A158CC5A61099D6 /* Pods-FaUpIn05GitHubRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaUpIn05GitHubRepository.debug.xcconfig"; path = "Target Support Files/Pods-FaUpIn05GitHubRepository/Pods-FaUpIn05GitHubRepository.debug.xcconfig"; sourceTree = "<group>"; };
+		6D57891B1C2F2E37F267E3B3 /* Pods_FaUpIn05GitHubRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaUpIn05GitHubRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		711AB04611CB3B12075E8F7B /* Pods-FaUpIn05GitHubRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaUpIn05GitHubRepository.release.xcconfig"; path = "Target Support Files/Pods-FaUpIn05GitHubRepository/Pods-FaUpIn05GitHubRepository.release.xcconfig"; sourceTree = "<group>"; };
 		D85BABA92BF8FC94005633C8 /* FaUpIn05GitHubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaUpIn05GitHubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85BABAC2BF8FC94005633C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D85BABAE2BF8FC94005633C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D85BABB02BF8FC94005633C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D85BABB32BF8FC94005633C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D85BABB52BF8FC97005633C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D85BABB82BF8FC97005633C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D85BABBA2BF8FC97005633C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D6DA412C00BF8F0073E9A1 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
+		D8D6DA432C00C16A0073E9A1 /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC64C1B5A06CC594CE0DA14 /* Pods_FaUpIn05GitHubRepository.framework in Frameworks */,
+				D8D6DA472C00C2420073E9A1 /* SnapKit in Frameworks */,
+				D8D6DA492C00C2420073E9A1 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DCF43E7C162359D3B16F34D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D57891B1C2F2E37F267E3B3 /* Pods_FaUpIn05GitHubRepository.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CAB95D6ABADED5C13EDA354 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1379C9926A158CC5A61099D6 /* Pods-FaUpIn05GitHubRepository.debug.xcconfig */,
+				711AB04611CB3B12075E8F7B /* Pods-FaUpIn05GitHubRepository.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D85BABA02BF8FC94005633C8 = {
 			isa = PBXGroup;
 			children = (
 				D85BABAB2BF8FC94005633C8 /* FaUpIn05GitHubRepository */,
 				D85BABAA2BF8FC94005633C8 /* Products */,
+				8CAB95D6ABADED5C13EDA354 /* Pods */,
+				3DCF43E7C162359D3B16F34D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +86,8 @@
 			children = (
 				D85BABAC2BF8FC94005633C8 /* AppDelegate.swift */,
 				D85BABAE2BF8FC94005633C8 /* SceneDelegate.swift */,
-				D85BABB02BF8FC94005633C8 /* ViewController.swift */,
-				D85BABB22BF8FC94005633C8 /* Main.storyboard */,
+				D8D6DA432C00C16A0073E9A1 /* RepositoryListCell.swift */,
+				D8D6DA412C00BF8F0073E9A1 /* RepositoryListViewController.swift */,
 				D85BABB52BF8FC97005633C8 /* Assets.xcassets */,
 				D85BABB72BF8FC97005633C8 /* LaunchScreen.storyboard */,
 				D85BABBA2BF8FC97005633C8 /* Info.plist */,
@@ -74,15 +102,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D85BABBD2BF8FC97005633C8 /* Build configuration list for PBXNativeTarget "FaUpIn05GitHubRepository" */;
 			buildPhases = (
+				519B8BF614CD5F3FFA83F7C0 /* [CP] Check Pods Manifest.lock */,
 				D85BABA52BF8FC94005633C8 /* Sources */,
 				D85BABA62BF8FC94005633C8 /* Frameworks */,
 				D85BABA72BF8FC94005633C8 /* Resources */,
+				975447B61D07EA11EA75AA0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FaUpIn05GitHubRepository;
+			packageProductDependencies = (
+				D8D6DA462C00C2420073E9A1 /* SnapKit */,
+				D8D6DA482C00C2420073E9A1 /* SnapKit-Dynamic */,
+			);
 			productName = FaUpIn05GitHubRepository;
 			productReference = D85BABA92BF8FC94005633C8 /* FaUpIn05GitHubRepository.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +145,9 @@
 				Base,
 			);
 			mainGroup = D85BABA02BF8FC94005633C8;
+			packageReferences = (
+				D8D6DA452C00C2420073E9A1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D85BABAA2BF8FC94005633C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +164,68 @@
 			files = (
 				D85BABB62BF8FC97005633C8 /* Assets.xcassets in Resources */,
 				D85BABB92BF8FC97005633C8 /* Base in Resources */,
-				D85BABB42BF8FC94005633C8 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		519B8BF614CD5F3FFA83F7C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaUpIn05GitHubRepository-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		975447B61D07EA11EA75AA0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaUpIn05GitHubRepository/Pods-FaUpIn05GitHubRepository-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaUpIn05GitHubRepository/Pods-FaUpIn05GitHubRepository-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaUpIn05GitHubRepository/Pods-FaUpIn05GitHubRepository-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D85BABA52BF8FC94005633C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D85BABB12BF8FC94005633C8 /* ViewController.swift in Sources */,
 				D85BABAD2BF8FC94005633C8 /* AppDelegate.swift in Sources */,
 				D85BABAF2BF8FC94005633C8 /* SceneDelegate.swift in Sources */,
+				D8D6DA422C00BF8F0073E9A1 /* RepositoryListViewController.swift in Sources */,
+				D8D6DA442C00C16A0073E9A1 /* RepositoryListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D85BABB22BF8FC94005633C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D85BABB32BF8FC94005633C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D85BABB72BF8FC97005633C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,18 +358,20 @@
 		};
 		D85BABBE2BF8FC97005633C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1379C9926A158CC5A61099D6 /* Pods-FaUpIn05GitHubRepository.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FaUpIn05GitHubRepository/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,18 +387,20 @@
 		};
 		D85BABBF2BF8FC97005633C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711AB04611CB3B12075E8F7B /* Pods-FaUpIn05GitHubRepository.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FaUpIn05GitHubRepository/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +436,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8D6DA452C00C2420073E9A1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8D6DA462C00C2420073E9A1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8D6DA452C00C2420073E9A1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D8D6DA482C00C2420073E9A1 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8D6DA452C00C2420073E9A1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D85BABA12BF8FC94005633C8 /* Project object */;
 }
